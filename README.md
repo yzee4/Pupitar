@@ -41,16 +41,17 @@ $ python3 install.py
 $ pupitar
 ```
 
+##  Changelog
+- Interface changes
+- Working in Termux and others
+- Flags were added
+- Bug fixed
+
+Bugs can still be found, if found, leave your report 
+
 ## Open Source
 The Pupitar is open source, which means it is publicly available for viewing, use, modification, and distribution by anyone interested. This openness and transparency allow the community of developers and enthusiasts to collaborate, enhance, and customize the software according to their needs and goals.
 
 The fact that the code is open source offers several advantages. It enables greater auditability since anyone can scrutinize the code for security flaws and issues. Additionally, it promotes innovation as numerous creative minds can contribute ideas and improvements. The open-source community also tends to create more accessible and customizable solutions, catering to a variety of needs.
 
 Therefore, the open-source nature of a project serves as an incentive for collaboration, continuous improvement, and transparency, making it an appealing choice for many developers and users who value freedom and flexibility in the world of software.
-
-##  Thanks!
-We just wanted to say a big thank you for using our tool! It's awesome to have you here.
-
-Your feedback and experiences mean a lot to us. We want our tool to be the best it can be for you, and your feedback plays a key role in that. So, if you have any suggestions, thoughts, or anything you'd like to share with us, please feel free to do so. We're always listening.
-
-Once again, thank you for choosing us and being part of our journey. We hope to continue providing a great experience for you.
