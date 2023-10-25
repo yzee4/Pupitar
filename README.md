@@ -45,10 +45,9 @@ $ python3 pupitar-termux.py
 ```
 
 # Changelog
-- Interface changes
-- Working in Termux and others
-- Flags were added
-- Bug fixed
+- Optimizing system
+- Bugs in Pupitar and Pupitar Termux are fixed
+- New flags
 
 Bugs can still be found, if found, leave your report 
 
