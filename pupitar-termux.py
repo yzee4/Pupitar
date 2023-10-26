@@ -157,7 +157,8 @@ def scan_network():
                     if vulnerabilities:
                         print(f"{Colors.LIGHT_GREEN}----| IP: {Colors.WHITE}{ip_address}")
                         if name and mac:
-                            print(f"""{Colors.YELLOW}NAME: {Colors.WHITE}{name}\n{Colors.YELLOW}MAC:  {Colors.WHITE}{mac}""")
+                            if root == True:
+                                print(f"""{Colors.YELLOW}NAME: {Colors.WHITE}{name}\n{Colors.YELLOW}MAC:  {Colors.WHITE}{mac}""")
                         for vulnerability in vulnerabilities:
                             print(vulnerability)
                         print(f"{Colors.LIGHT_GREEN}----| ")
@@ -198,7 +199,8 @@ def scan_network():
                         if match_mac:
                             mac = match_mac.group(1)
                             name = match_mac.group(2)
-                        print(f"""{Colors.YELLOW}NAME: {Colors.WHITE}{name}\n{Colors.YELLOW}MAC:  {Colors.WHITE}{mac}""")
+                        if root == True:
+                            print(f"""{Colors.YELLOW}NAME: {Colors.WHITE}{name}\n{Colors.YELLOW}MAC:  {Colors.WHITE}{mac}""")
 
                         if match_ports:
                             for match in match_ports:
